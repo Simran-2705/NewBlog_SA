@@ -1,0 +1,36 @@
+---
+title: "A1_Assignment"
+df-print: paged
+editor: visual
+---
+## Introduction 
+This is my A1 project.
+
+## Setup
+
+
+```{r}
+#|label: setup
+#|message: false
+#|warning: false
+library(tidyverse)
+library(ggformula)
+library(babynames)
+
+
+
+```
+
+
+
+
+
+```{r}
+penguins
+```
+
+```{r}
+penguins %>% 
+  gf_bar(~island)
+```
+
